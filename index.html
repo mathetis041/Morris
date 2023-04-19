@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/src/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="overflow-x-hidden p-0 m-0 w-full h-full">
+    
+    <header class="bg-slate-800 pb-44 md:pb-10 lg:pb-0 xl:pb-20 overflow-x-hidden">
+      <!--the entire nav content-->
+      
+
+      
+      <nav class="flex justify-between pl-7" id="nav">
+        <!--nav logo image-->
+        <div class="flex justify-between w-full">
+          <button>
+            <img class="w-20 pt-3 sm:pb-3 md:w-20 lg:w-32 lg:pt-3"  src="../images/favicon.png" alt="logo" />
+          </button>
+
+          <button>
+            <img class="pr-3 w-12" id="hamburger" src="../images/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="hamburger" />
+          </button>
+        </div>
+        <!--div holding the nav menu-->
+        <div class=" xl:w-3/4">
+            <!--menu lists-->
+            <div class="w-ham_menu_w h-ham_menu_h hidden bg-white lg:bg-transparent md:w-full md:h-0 md:py-5" id="menu">
+              <div class="flex justify-between">
+                <button>
+                  <img class="w-24 pt-3 pl-2" src="../images/favicon.png" alt="logo" />
+                </button>
+                <button class="pr-10">
+                 <img class="float-right w-8" id="hamburger-2" src="../images/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="hamburger" />
+                </button>
+              </div>
+              
+
+              <ul class="text-xl md:text-sm  font-light text-slate-800 lg:text-white lg:flex lg:justify-end pr-7">
+                <li class="nav-li"><a class="w-full" href="#">HOME</a></li>
+                <li class="nav-li"><a class="w-full" href="#">ABOUT US</a></li>
+                <li class="nav-li"><a class="w-full" href="#">OUR TEAM</a></li>
+    
+                <!--hovering menu dropdown-->
+                <div>
+                  <button class="peer border-none w-full text-left overflow-hidden lg:relative 
+                  py-2 pl-5 lg:py-4 lg:font-extrabold lg:pl-10">
+                    SERVICES
+                  </button>
+                  <div class="dropdown-nav">
+                    <a href="#" class="dropdown-nav-li">Community Associations</a>
+                    <a href="#" class="dropdown-nav-li"
+                      >Attorney & Legal Practices</a
+                    >
+                    <a href="#" class="dropdown-nav-li">Homeowners & Residential</a>
+                    <a href="#" class="dropdown-nav-li"
+                      >Commercial Industrial & Institutional</a
+                    >
+                    <a href="#" class="dropdown-nav-li">Resources & Literature</a>
+                  </div>
+                </div>
+    
+                <!--second hovering menu dropdown-->
+                <div>
+                  <button class="peer py-2 lg:py-4 pl-5 w-full text-left border-none overflow-hidden lg:relative lg:font-extrabold lg:pl-10">
+                    PROJECT GALLERY
+                  </button>
+                  <div class="dropdown-nav">
+                    <a href="#" class="dropdown-nav-li"
+                      >Electric Vehicle Charging</a
+                    >
+                    <a href="#" class="dropdown-nav-li">Pavement</a>
+                    <a href="#" class="dropdown-nav-li">EIFS/Stucco</a>
+                    <a href="#" class="dropdown-nav-li"
+                      >Vinyl/Engineered Lumber Siding</a
+                    >
+                    <a href="#" class="dropdown-nav-li"
+                      >Drainage & Storm Water Management</a
+                    >
+                    <a href="#" class="dropdown-nav-li"
+                      >Pool Investigation, Litigation and Rehab</a
+                    >
+                    <a href="#" class="dropdown-nav-li"
+                      >Structural Analysis and Design</a
+                    >
+                    <a href="#" class="dropdown-nav-li">Religious Institutions</a>
+                    <a href="#" class="dropdown-nav-li"
+                      >Roof Repair and Replacement</a
+                    >
+                    <a href="#" class="dropdown-nav-li">Retaining Wall</a>
+                    <a href="#" class="dropdown-nav-li">Deck/Balcony Replacement</a>
+                    <a href="#" class="dropdown-nav-li">Waterproofing</a>
+                  </div>
+                </div>
+                <li class="nav-li"><a class="w-full" href="#">CAREER</a></li>
+                <li class="nav-li"><a class="w-full" href="#">CONTACT US</a></li>
+              </ul>
+              <a href="#" class="text-slate-800 text-xl font-extrabold py-2 pl-5 lg:p-0 lg:pr-7 lg:mt-3 lg:text-white lg:float-right lg:bg-slate-800 hover:bg-slate-800 hover:text-white pr-"
+                >(908) 719-7600</a
+              >
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+
+      <!--text contents in the header-->
+      <section class="text-center sm:text-start sm:pl-7 lg:pl-7 lg:py-10">
+        <div>
+          <h1
+            class="pt-40 text-3xl text-white font-bold sm:text-tablet lg:text-laptop lg:pb-3"
+          >
+          <span class="block sm:pb-2 lg:inline">MORRIS</span> ENGINEERING, LLC
+          </h1>
+        </div>
+        <div>
+          <p class="text-xl font-extralight mt-2 text-white sm:text-2xl">
+            Full-service Engineering Firm since 2008
+          </p>
+        </div>
+        <div>
+          <button
+            class="btns"
+          >
+            GET IN TOUCH
+          </button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="flex flex-wrap justify-evenly gap-3 px-2.5">
+        <a href="#" class="cols">
+          <img class="w-24 mx-auto" src="../images/condominium-icon.png" alt="house image">
+          <p class="col_p">COMMUNITY ASSOCIATIONS<span class="col_span">>></span></p>
+        </a>
+        <a href="#" class="cols">
+          <img class="w-24 mx-auto" src="../images/attorney-icon.png" alt="house image">
+          <p class="col_p">ATTORNEY & LEGAL PRACTICES <span class="col_span">>></span></p>
+        </a>
+        <a href="#" class="cols">
+          <img class="w-24 mx-auto" src="../images/homeowner-icon.png" alt="house image">
+          <p class="col_p">HOMEOWNERS & RESIDENTIALS <span class="col_span">>></span></p>
+        </a>
+        <a href="#" class="cols">
+          <img class="w-24 mx-auto" src="../images/insurance-icon.png" alt="house image">
+          <p class="col_p">COMMERCIAL, INDUSTRIAL & INSTITUTIONAL <span class="col_span">>></span></p>
+        </a>
+      </div>
+      <section class="text-center pt-40 px-5 pb-14 lg:pb-32 xl:pb-36">
+        <h2 class="text-2xl font-bold text-slate-800 md:text-4xl">Custom-fit Solutions for Your Industry</h2>
+        <p class="py-7 text-xl font-light  md:px-24">Morris Engineering is fit to handle any and all of your engineering needs!</p>
+        <p class="text-xl font-light pb-7  md:px-20 md:text-xl lg:px-10 xl:px-14">No matter your place in the process, our team of experienced forensic engineers is prepared to guide you through each phase of work. From repairs and renovations to inspections and detailed reporting, you can count on us to get it done right!</p>
+        <span>
+          <button class="btns my-10 shadow-xl">
+            SEE OUR SERVICES
+          </button>
+        </span>
+      </section>
+
+      <article class="bg-slate-100">
+        <section class="text-center pb-16 lg:w-1/2 lg:text-left lg:py-24 ">
+          <h2 class="text-2xl py-7 font-bold px-10 lg:pl-0 lg:w-96 xl:text-5xl xl:w-full">Tackle Your Project with Services from First-Rate Engineers</h2>
+          <p class="text-xl px-4 font-light lg:pl-0 lg:w-section_p xl:w-sect_p_laptop">Ranging from individual homes to large-scale developments, we have the know-how our clients expect from a first-rate engineering company. Our growing team of  engineers, project managers, technical staff and highly qualified consultants perform alongside Principal, Steve Morris, who is directly involved in each project. No matter your needs, the level of excellence and attention to detail provided by Morris Engineering will ensure that your project gets done right the first time. </p>
+          <button class="btns shadow-xl font-light">
+            BROWSE PROJECT EXAMPLES
+          </button>
+        </section>
+      </article>
+      <article>
+        <section class="text-center">
+          <h2 class="text-3xl pt-20 pb-8 font-bold text-slate-800 ">Founded with Excellence in Mind</h2>
+          <p class="text-xl font-light pb-8 px-1">Morris Engineering LLC brings together years of experience and expertise from within the fields of forensic Engineering and conmstruction. With a focus on satisfying individual client needs, our company offers full-service Engineeering services.</p>
+          <p class="text-xl font-light">The combined expertise of our team ensures your project gets the attention, skill, and enthusiasm it deserves</p>
+          <button class="btns shadow-lg font-light">
+            MORE ABOUT MORRIS
+          </button>     
+        </section>
+      </article>
+      <article class="bg-slate-900 ">
+        <section class="text-center">
+          <h2 class="text-white text-3xl pt-20 pb-14">Need Help with Your Project? Let Connect!</h2>
+          <p class="text-white text-xl">Morris Engineering, LLC is fully equipped to be your go-to resource in the Engineering world. Contact us todat to learn more about how the Morris Team can help you!</p>
+          <button class="btns shadow-xl font-light">CONTACT US</button>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <span>
+      <h3>1641 US Highway 206 Bedminster, NJ 07921</h3>
+      <h3><span>P:</span>(908) 719-7600</h3>
+      </span>
+    </footer>
+
+    <script>
+      const menu = document.querySelector ("#menu");
+      const hamburger = document.querySelector ("#hamburger");
+      const innerBurger = document.querySelector ("#hamburger-2");
+      const nav = document.querySelector ('#nav');
+
+
+      hamburger.addEventListener ('click', () => {
+        if(menu.classList.contains ('hidden')){
+          menu.classList.remove ('hidden');
+        }else{
+         menu.classList.add ('hidden'); 
+        }
+      });
+
+      innerBurger.addEventListener ('click', () => {
+        menu.classList.add ('hidden');
+        hamburger.classList.remove ('hidden');
+        nav.classList.add ('pl-7');
+        
+      });
+
+      hamburger.addEventListener ('click', () => {
+        hamburger.classList.add ('hidden');
+        nav.classList.remove ('pl-7');
+        
+      });
+/*
+      innerBurger.addEventListener ('click', () => {
+        hamburger.classList.remove ('hidden');
+      });*/
+
+    </script>
+  </body>
+</html>

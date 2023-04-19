@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nav-li{
+    @apply lg:font-extrabold lg:pl-10 py-2 lg:py-4 pl-5 
+}
+
+
+.dropdown-nav{
+    @apply peer-hover:flex hover:flex hidden flex-col bg-white w-72 absolute
+}
+
+.dropdown-nav-li{
+    @apply text-slate-800 hover:bg-slate-800 hover:text-white font-light px-4 py-2 text-sm
+}
+
+.btns{
+    @apply px-5 py-3 mt- bg-orange-300 shadow-lg text-lg font-light
+}
