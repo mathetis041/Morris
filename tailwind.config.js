@@ -9,16 +9,17 @@ module.exports = {
         tablet : '2.8rem',
       },
       width: {
-        columns: '178px',
-        col_mob : '190px',
-        col_laptop : '298px',
+        col_tab: '178px',
+        col_mob : '196px',
+        col_laptop : '230px',
         section_p : '500px',
-        sect_p_laptop : '620px',
+        sect_p_laptop : '200px',
         ham_menu_w : '425px',
+        col_xl_laptop : '300px',
       },
       height: {
-        ham_menu_h: '520px',
-      }
+        ham_menu_h: '550px',
+      },
     }
   },
   plugins: [],

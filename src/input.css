@@ -3,20 +3,43 @@
 @tailwind utilities;
 
 
-
+/* The nav links styling classes*/
 .nav-li{
-    @apply lg:font-extrabold lg:pl-10 py-2 lg:py-4 pl-5 
+    @apply lg:font-extrabold lg:pl-0 py-2 lg:py-7 pl-5 w-full sm:text-xl lg:text-sm lg:text-center
 }
 
 
+/*Nav Services and Project Gallery links styling classes*/
 .dropdown-nav{
     @apply peer-hover:flex hover:flex hidden flex-col bg-white w-72 absolute
 }
 
+
+/*Nav Services and Project Gallery dropdown list links styling classes*/
 .dropdown-nav-li{
     @apply text-slate-800 hover:bg-slate-800 hover:text-white font-light px-4 py-2 text-sm
 }
 
+
+/*All btns classes in the webpage*/
 .btns{
-    @apply px-5 py-3 mt- bg-orange-300 shadow-lg text-lg font-light
+    @apply px-5 py-2 mt-6 bg-orange-200 shadow-lg text-lg font-light border border-none
+}
+
+
+/*column containers in homepage*/
+.cols{
+    @apply border bg-slate-100 border-none shadow-md py-8 w-col_mob sm:w-col_tab lg:w-col_laptop xl:w-col_xl_laptop
+}
+
+
+/*column paragraph in homepage*/
+.col_p{
+    @apply text-sm font-bold text-center pt-5 px-5 xl:text-lg
+}
+
+
+/*columns span on the webPAGE*/
+.col_span{
+    @apply pl-2 text-sm text-slate-800 font-extrabold
 }
